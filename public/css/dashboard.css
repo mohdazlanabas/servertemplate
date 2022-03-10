@@ -49,7 +49,7 @@ body {
 
 /* SIDEBAR */
 #sidebar {
-	position: fixed;
+/*	position: fixed; */
 	top: 152px;
 	left: 0;
 	width: 280px;
