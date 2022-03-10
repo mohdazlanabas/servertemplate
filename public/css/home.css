@@ -1,12 +1,12 @@
 .wrapper{
     margin-top: 20px;
-    padding: 10px;
+    padding: 2px;
     margin-bottom: 20px;
 }
 
 #button{  
     background-color: darkgray;  
-    padding: 10px;  
+    padding: 5px;  
     color: white;
-    margin-left: 20px;
+    margin-left: 5px;
 }  
