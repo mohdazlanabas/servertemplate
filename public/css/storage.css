@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainwrapper{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 5px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding: 5px;
+
+}
+
+.img-with-text{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+
+}
+
+.folder {
+    width: 75px;
+}
+

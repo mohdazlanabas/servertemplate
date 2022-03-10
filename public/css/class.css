@@ -1,0 +1,61 @@
+.wrapper{
+    background-color: black;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+.c1{
+    background-color: blue;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.c2{
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.r1a{
+    background-color: lightcoral;
+    height: 33%;
+    width: 100%;
+}
+
+.r1b{
+    background-color: lightcyan;
+    height: 33%;
+    width: 100%;
+}
+
+.r1c{
+    background-color: black;
+    height: 33%;
+    width: 100%;
+    color: white
+}
+
+
+.r2a{
+    background-color: lightblue;
+    height: 33%;
+    width: 100%;
+}
+
+
+.r2b{
+    background-color: lightgray;
+    height: 33%;
+    width: 100%;
+}
+
+.r2c{
+    background-color: lightgreen;
+    height: 33%;
+    width: 100%;
+}

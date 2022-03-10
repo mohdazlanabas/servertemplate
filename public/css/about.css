@@ -1,0 +1,14 @@
+.box{
+    font-family: 'Century Gothic',sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    max-width: 90%;
+    max-height: 600px;
+    padding: 5px;
+    text-align: center;
+    font-size: 2vw;
+  }
+
+.datetime{
+    font-size: 1.5rem;
+}

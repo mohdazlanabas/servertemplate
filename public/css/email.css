@@ -1,0 +1,73 @@
+body{
+    background-color: b;
+    padding: 0;
+    margin: 0;
+}
+  
+.zero{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    padding: 5px;
+    height: 95%;
+    width: 95%;
+    margin: 5px 5px 5px 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+  }
+
+.one{
+    background-color: lightgray;
+    height: 735px;
+    width: 10%;
+    display: flex;
+}
+
+.two{
+    background-color: lightgay;
+    height: 90%;
+    width: 30%;
+    align-items: center;
+}
+
+.twoA{
+    background-color: white;
+    height: 695px;
+    width: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+.three{
+    background-color: lightgray;
+    height: 90%;
+    width: 60%;
+    align-items: center;
+}
+
+.threeA{
+    background-color: white;
+    height: 679px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.four{
+    display: flex;
+    text-align: center;
+}
+
+.five{
+    width:20%;
+}
+
+.six{
+    display: flex;
+    text-align: center;
+}
+
+.seven{
+    width:20%;
+}
+
+

@@ -1,0 +1,27 @@
+
+.wrapper{
+    width: 95%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+.container-sm{
+    background-color:lightgreen;
+}
+
+.container-md{
+    background-color: cyan;
+}
+
+.container-lg{
+    background-color: yellow;
+}
+
+.container-xl{
+    background-color: lightgrey;
+}
+
+.container-xxl{
+    background-color: pink;
+}

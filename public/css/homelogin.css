@@ -1,0 +1,42 @@
+body  
+{  
+    font-family: 'Arial';
+}  
+
+.login{  
+        width: 380px;  
+        overflow: hidden;  
+        padding: 80px;  
+        background: lightgray;  
+        border-radius: 15px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+}  
+
+.simple{
+    margin-left: 150px
+}
+
+#Uname{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+#Pass{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+
+#mainlogin{  
+    background-color: darkgray;  
+    padding: 10px;  
+    color: white;
+    margin-left: 40px;
+}  
