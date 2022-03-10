@@ -1,160 +1,144 @@
 
-
-	<title>E-SCHOOL <country> </country></title>
-	<link rel="stylesheet" type="text/css" href="css/visitor.css">
-	<script type="text/javascript" src="js/visitor.js"></script>
-	<script>
-		$(window).on('scroll', function(){
-  			if($(window).scrollTop()){
-  			  $('nav').addClass('black');
- 			 }else {
- 		   $('nav').removeClass('black');
- 		 }
-		})
-	</script>
+<title>E-SCHOOL <country> </country></title>
+<link rel="stylesheet" type="text/css" href="css/visitor.css">
+<script type="text/javascript" src="js/visitor.js"></script>
 
 <!-- Navigation Bar -->
-	<header id="header">
-		<nav>
-			<div class="logo"><img src="graphics/eschoollogo.jpeg" alt="logo"></div>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#portfolio_section">Community</a></li>
-				<li><a href="#team_section">Founders</a></li>
-				<li><a href="#services_section">Subjects</a></li>
-				<li><a href="#contactus_section">Contact</a></li>
-			</ul>
-			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="graphics/search.png" alt="search" onclick=slide()></div>
-			<a class="get-started" href="/home">Get Started</a>
-			<img src="graphics/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
-		</nav>
 
-	<!-- Navigation Section -->
+<nav>
+	<div class="logo"><img src="graphics/eschoollogo.jpeg" alt="logo"></div>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#portfolio_section">Community</a></li>
+		<li><a href="#team_section">Founders</a></li>
+		<li><a href="#services_section">Subjects</a></li>
+		<li><a href="#contactus_section">Contact</a></li>
+	</ul>
+	<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="graphics/search.png" alt="search" onclick=slide()></div>
+	<a class="get-started" href="/home">Get Started</a>
+	<img src="graphics/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+</nav>
 
-		<div class="head-container">
-			<div class="quote">
-				<p>The beautiful thing about learning is that nobody can take it away from you</p>
-				<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
-				<div class="play">
-					<img src="graphics/play.png" alt="play"><span><a href="#" target="_blank">Watch Intro Now</a></span>
-				</div>
-			</div>
-			<div class="svg-image">
-				<img src="graphics/svg1.jpg" alt="svg">
-			</div>
-		</div>
-		<div class="side-menu" id="side-menu">
-			<ul>
-				<li><a href="#about_section">About</a></li>
-				<li><a href="#portfolio_section">Comminity</a></li>
-				<li><a href="#team_section">Founders</a></li>
-				<li><a href="#services_section">pages</a></li>
-				<li><a href="#contactus_section">Contact</a></li>
-				<li><a href="#feedback">Feedback</a></li>
-			</ul>
-		</div>
-	<div>
+<!-- Navigation Section -->
 
-	<!-- Sliding Information -->
-	<marquee style="background: linear-gradient(to right, black, black); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
+<div class="head-container">
+	<div class="quote">
+		<p>The beautiful thing about learning is that nobody can take it away from you</p>
+		<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
+		<div class="play">
+			<img src="graphics/play.png" alt="play"><span><a href="#" target="_blank">Watch Intro Now</a></span>
 		</div>
-	</header>
+	</div>
+	<div class="svg-image">
+		<img src="graphics/svg1.jpg" alt="svg">
+	</div>
+</div>
+
+
+<!-- Sliding Information -->
+
+<marquee style="background: linear-gradient(to right, black, black); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
 
 <!-- Some Popular pages -->
-	<div class="title">
-		<span>Popular subjects on E-SCHOOL</span>
+
+<div class="title">
+	<span>Popular subjects on E-SCHOOL</span>
+</div>
+<br><br>
+<div class="course">
+	<center><div class="cbox">
+	<div class="det"><a href="pages/math.html"><img src="graphics/book.png">Mathematics</a></div>
+	<div class="det"><a href="pages/science.html"><img src="graphics/d1.png">Science</a></div>
+	<div class="det"><a href="pages/business.html"><img src="graphics/paper.png">Business</a></div>
+	<div class="det"><a href="pages/comms.html"><img src="graphics/d1.png">Communication</a></div>
+	</div></center>
+	<div class="cbox">
+	<div class="det"><a href="pages/sports.html"><img src="graphics/computer.png">Sports & Health</a></div>
+	<div class="det"><a href="pages/arts.html"><img src="graphics/data.png">Arts</a></div>
+	<div class="det"><a href="pages/history.html#algo"><img src="graphics/algo.png">History & Geography</a></div>
+	<div class="det det-last"><a href="pages/language.html#projects"><img src="graphics/projects.png">Language</a></div>
 	</div>
-	<br><br>
-	<div class="course">
-		<center><div class="cbox">
-		<div class="det"><a href="pages/math.html"><img src="graphics/book.png">Mathematics</a></div>
-		<div class="det"><a href="pages/science.html"><img src="graphics/d1.png">Science</a></div>
-		<div class="det"><a href="pages/business.html"><img src="graphics/paper.png">Business</a></div>
-		<div class="det"><a href="pages/comms.html"><img src="graphics/d1.png">Communication</a></div>
-		</div></center>
-		<div class="cbox">
-		<div class="det"><a href="pages/sports.html"><img src="graphics/computer.png">Sports & Health</a></div>
-		<div class="det"><a href="pages/arts.html"><img src="graphics/data.png">Arts</a></div>
-		<div class="det"><a href="pages/history.html#algo"><img src="graphics/algo.png">History & Geography</a></div>
-		<div class="det det-last"><a href="pages/language.html#projects"><img src="graphics/projects.png">Language</a></div>
-		</div>
-	</div>
-	
+</div>
+
 <!-- ABOUT -->
-	<div class="diffSection" id="about_section">
-		<center><p style="font-size: 50px; padding: 100px">About</p></center>
-		<div class="about-content">
-				<div class="side-image">
-					<img class="sideImage" src="graphics/extra/e3.jpg">
-				</div>
-				<div class="side-text">
-					<h2>Message From The Chairman</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maiores velit laborum omnis laudantium unde quaerat itaque magnam architecto reiciendis vitae quo quasi sit quidem ab reprehenderit quas voluptatum blanditiis, facilis placeat fugit. Est debitis, magnam, sunt quo illo blanditiis atque ipsam sint porro reiciendis nulla maiores! Autem quasi at non magni pariatur, nihil tempore excepturi est, molestiae qui iusto? Nam animi nostrum officiis perferendis aperiam ea. Cum nesciunt ea debitis at ratione molestias impedit beatae, ducimus architecto. Omnis tempora cupiditate nobis et, voluptate praesentium accusantium sequi commodi dolorem quis ab itaque earum placeat magni asperiores soluta magnam quisquam porro repellat, reiciendis in laudantium. Est, sapiente molestiae sed repellendus aliquid excepturi ullam illum minus unde vitae illo! Esse natus ea quos id recusandae eveniet nam rerum odit quam, laborum labore. Quidem itaque ex, temporibus ipsum minima, ratione adipisci quae commodi consectetur quam ad sint perspiciatis nostrum totam esse ab labore eum illo dolor? Unde voluptatum dolorum repudiandae, ipsam soluta corrupti beatae consequuntur nam ipsum possimus exercitationem facere aliquid aperiam explicabo dicta, atque ad molestiae eveniet cumque porro ducimus deserunt. Ipsum quaerat at alias fuga earum aut nemo adipisci! Ipsa quos itaque, voluptas assumenda eos velit fuga accusantium ullam quisquam esse?.</p>
-				</div>
-		</div>
+
+<div class="diffSection" id="about_section">
+	<center><p style="font-size: 50px; padding: 100px">About</p></center>
+	<div class="about-content">
+			<div class="side-image">
+				<img class="sideImage" src="graphics/e3.jpg">
+			</div>
+			<div class="side-text">
+				<h2>Message From The Chairman</h2>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maiores velit laborum omnis laudantium unde quaerat itaque magnam architecto reiciendis vitae quo quasi sit quidem ab reprehenderit quas voluptatum blanditiis, facilis placeat fugit. Est debitis, magnam, sunt quo illo blanditiis atque ipsam sint porro reiciendis nulla maiores! Autem quasi at non magni pariatur, nihil tempore excepturi est, molestiae qui iusto? Nam animi nostrum officiis perferendis aperiam ea. Cum nesciunt ea debitis at ratione molestias impedit beatae, ducimus architecto. Omnis tempora cupiditate nobis et, voluptate praesentium accusantium sequi commodi dolorem quis ab itaque earum placeat magni asperiores soluta magnam quisquam porro repellat, reiciendis in laudantium. Est, sapiente molestiae sed repellendus aliquid excepturi ullam illum minus unde vitae illo! Esse natus ea quos id recusandae eveniet nam rerum odit quam, laborum labore. Quidem itaque ex, temporibus ipsum minima, ratione adipisci quae commodi consectetur quam ad sint perspiciatis nostrum totam esse ab labore eum illo dolor? Unde voluptatum dolorum repudiandae, ipsam soluta corrupti beatae consequuntur nam ipsum possimus exercitationem facere aliquid aperiam explicabo dicta, atque ad molestiae eveniet cumque porro ducimus deserunt. Ipsum quaerat at alias fuga earum aut nemo adipisci! Ipsa quos itaque, voluptas assumenda eos velit fuga accusantium ullam quisquam esse?.</p>
+			</div>
 	</div>
+</div>
 
 <!-- PORTFOLIO -->
-	<div class="diffSection" id="portfolio_section">
-		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Community</p></center>
-		<div class="content">
-			<h1>
-				Education is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. How then we ensure reproducibility. intelligence is not enough. Intelligence plus character—that is the goal of true education.”
-			</h1>
-		</div>
+
+<div class="diffSection" id="portfolio_section">
+	<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Community</p></center>
+	<div class="content">
+		<h3>
+			Education is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. How then we ensure reproducibility. intelligence is not enough. Intelligence plus character—that is the goal of true education.”
+		</h3>
 	</div>
-	<div class="extra">
-		<p>We're making an impact lets do more</p>
-		<div class="smbox">
-		<span><center><div class="data">1,001</div><div class="det">Enrolled Schools</div></center></span>
-		<span><center><div class="data">100,001</div><div class="det">Active Users</div></center></span>
-		<span><center><div class="data">50,001</div><div class="det">Enrolled Students</div></center></span>
-		<span><center><div class="data">2,701</div><div class="det">Lauched pages</div></center></span>
-		</div>
+</div>
+<div class="extra">
+	<p>We're making an impact lets do more</p>
+	<div class="smbox">
+	<span><center><div class="data">1,001</div><div class="det">Enrolled Schools</div></center></span>
+	<span><center><div class="data">100,001</div><div class="det">Active Users</div></center></span>
+	<span><center><div class="data">50,001</div><div class="det">Enrolled Students</div></center></span>
+	<span><center><div class="data">2,701</div><div class="det">Lauched pages</div></center></span>
 	</div>
+</div>
 
 <!-- TEAM -->
-	<div class="diffSection" id="team_section">
-		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
-		<div class="totalcard">
-			<div class="card">
-				<center><img src="graphics/profile_pic1.jpg"></center>
-				<center><div class="card-title">Azlan Abas</div>
-				<div id="detail">
-					<p>“ Education is accessible and affordable if we make so, it can be a business to the honest. “</p>
-					<div class="duty"></div>
-					<a href="https://www.linkedin.com/in/mohdazlanabas" target="_blank"><button class="btn-azlan">Follow +</button></a>
-				</div>
-				</center>
+
+<div class="diffSection" id="team_section">
+	<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+	<div class="totalcard">
+		<div class="card">
+			<center><img src="graphics/profile_pic1.jpg"></center>
+			<center><div class="card-title">Azlan Abas</div>
+			<div id="detail">
+				<p>“ Education is accessible and affordable if we make so, it can be a business to the honest. “</p>
+				<div class="duty"></div>
+				<a href="https://www.linkedin.com/in/mohdazlanabas" target="_blank"><button class="btn-azlan">Follow +</button></a>
 			</div>
-			<div class="card">
-				<center><img src="graphics/profile_pic2.jpg"></center>
-				<center><div class="card-title">Can Be You, Yes YOU!</div>
-				<div id="detail">
-					<p>“Be the person that contributes to goodness through this effective education platform."></p>
-					<div class="duty"></div>
-					<a href="https://disney.fandom.com/wiki/Donald_Duck" target="_blank"><button class="btn-partner">Follow +</button></a>
-				</div>
-				</center>
+			</center>
+		</div>
+		<div class="card">
+			<center><img src="graphics/profile_pic2.jpg"></center>
+			<center><div class="card-title">Can Be You, Yes YOU!</div>
+			<div id="detail">
+				<p>“Be the person that contributes to goodness through this effective education platform."></p>
+				<div class="duty"></div>
+				<a href="https://disney.fandom.com/wiki/Donald_Duck" target="_blank"><button class="btn-partner">Follow +</button></a>
 			</div>
+			</center>
 		</div>
 	</div>
+</div>
 
 
 <!-- SERVICES -->
-	<div class="service-swipe">
-		<div class="diffSection" id="services_section">
-		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">SCHOOLS</p></center>
-		</div>
-		<a href="pages/preschool.html"><div class="s-card"><img src="graphics/computer-courses.png"><p>Pre School</p></div></a>
-		<a href="pages/elementary.html"><div class="s-card"><img src="graphics/brainbooster.png"><p>Elementary</p></div></a>
-		<a href="pages/primary.html"><div class="s-card"><img src="graphics/online-tutorials.png"><p>Primary Level</p></div></a>
-		<a href="pages/junior.html#sample_papers"><div class="s-card"><img src="graphics/papers.jpg"><p>Junior High</p></div></a>
-		<a href="pages/secondary.html"><div class="s-card"><img src="graphics/p3.png"><p>Secondary Level</p></div></a>
-		<a href="pages/senior.html"><div class="s-card"><img src="graphics/database.jpg"><p>Senior High</p></div></a>
-		<a href="pages/spm.html"><div class="s-card"><img src="graphics/q1.png"><p>SPM Track</p></div></a>
-		<a href="pages/igcse.html"><div class="s-card"><img src="graphics/help.png"><p>IGCSE Track</p></div></a>
+
+<div class="service-swipe">
+	<div class="diffSection" id="services_section">
+	<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">SCHOOLS</p></center>
 	</div>
+	<a href="pages/preschool.html"><div class="s-card"><img src="graphics/computer-courses.png"><p>Pre School</p></div></a>
+	<a href="pages/elementary.html"><div class="s-card"><img src="graphics/brainbooster.png"><p>Elementary</p></div></a>
+	<a href="pages/primary.html"><div class="s-card"><img src="graphics/online-tutorials.png"><p>Primary Level</p></div></a>
+	<a href="pages/junior.html#sample_papers"><div class="s-card"><img src="graphics/papers.jpg"><p>Junior High</p></div></a>
+	<a href="pages/secondary.html"><div class="s-card"><img src="graphics/p3.png"><p>Secondary Level</p></div></a>
+	<a href="pages/senior.html"><div class="s-card"><img src="graphics/database.jpg"><p>Senior High</p></div></a>
+	<a href="pages/spm.html"><div class="s-card"><img src="graphics/q1.png"><p>SPM Track</p></div></a>
+	<a href="pages/igcse.html"><div class="s-card"><img src="graphics/help.png"><p>IGCSE Track</p></div></a>
+</div>
 
 <!-- Reviews by Students -->
 
@@ -219,77 +203,78 @@
 </div>
 
 <!-- CONTACT US -->
-	<div class="diffSection" id="contactus_section">
-		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
-		<div class="csec"></div>
-		<div class="back-contact">
-			<div class="cc">
-			<form action="mailto:azlan01100001@gmail.com" method="post" enctype="text/plain">
-				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
-				<center>
-				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
-				</center>
-				<label>Email <span class="imp">*</span></label><br>
-				<input type="email" name="mail" style="width: 100%" required="required"><br>
-				<label>Message <span class="imp">*</span></label><br>
-				<input type="text" name="message" style="width: 100%" required="required"><br>
-				<label>Additional Details</label><br>
-				<textarea name="addtional"></textarea><br>
-				<button type="submit" id="csubmit">Send Message</button>
-			</form>
-			</div>
+
+<div class="diffSection" id="contactus_section">
+	<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+	<div class="csec"></div>
+	<div class="back-contact">
+		<div class="cc">
+		<form action="mailto:azlan01100001@gmail.com" method="post" enctype="text/plain">
+			<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+			<center>
+			<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+			</center>
+			<label>Email <span class="imp">*</span></label><br>
+			<input type="email" name="mail" style="width: 100%" required="required"><br>
+			<label>Message <span class="imp">*</span></label><br>
+			<input type="text" name="message" style="width: 100%" required="required"><br>
+			<label>Additional Details</label><br>
+			<textarea name="addtional"></textarea><br>
+			<button type="submit" id="csubmit">Send Message</button>
+		</form>
 		</div>
 	</div>
+</div>
 
 
 <!-- FEEDBACK -->
 	
-	<div class="feedbox">
-
-		<div class="title2" id="feedBACK">
-			<span>Give Feedback</span>
-			<div class="shortdesc2">
-				<p>Please share your valuable feedback to us</p>
-			</div>
-		</div>
-
-		<div class="feed">
-			<form action="mailto:azlan01100001@gmail.com" method="post" enctype="text/plain">
-				<label>Your Name</label><br>
-				<input type="text" name="" class="fname" required="required"><br>
-				<label>Email</label><br>
-				<input type="email" name="mail" required="required"><br>
-				<label>Additional Details</label><br>
-				<textarea name="addtional"></textarea><br>
-				<button type="submit" id="csubmit">Send Message</button>
-			</form>
+<div class="feedbox">
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
 		</div>
 	</div>
 
+	<div class="feed">
+		<form action="mailto:azlan01100001@gmail.com" method="post" enctype="text/plain">
+			<label>Your Name</label><br>
+			<input type="text" name="" class="fname" required="required"><br>
+			<label>Email</label><br>
+			<input type="email" name="mail" required="required"><br>
+			<label>Additional Details</label><br>
+			<textarea name="addtional"></textarea><br>
+			<button type="submit" id="csubmit">Send Message</button>
+		</form>
+	</div>
+</div>
+
 <!-- FOOTER -->
-	<footer>
-		<div class="footer-container">
-			<div class="left-col">
-				<div class="logo"></div>
-				<div class="social-media">
-					<a href="#"><img src="graphics\fb.png"></a>
-					<a href="#"><img src="graphics\insta.png"></a>
-					<a href="#"><img src="graphics\tt.png"></a>
-					<a href="#"><img src="graphics\ytube.png"></a>
-					<a href="#"><img src="graphics\linkedin.png"></a>
-				</div><br><br>
-				<p class="rights-text">Copyright © 2021 Created By Azlan Abas, All Rights Reserved.</p>
-				<br><p><img src="graphics/location.png"> Ubud, Bali, Indonesia<br><p>Come And Visit Me.</p><br>
-				<p><img src="graphics/phone.png"> +62 817 691 7122<br><img src="graphics/mail.png">&nbsp; azlan01100001@gmail.com</p>
-			</div>
-			<div class="right-col">
-				<h1 style="color: #fff">Our Newsletter</h1>
-				<div class="border"></div><br>
-				<p>Enter Your Email to get our News and updates.</p>
-				<form class="newsletter-form">
-					<input class="txtb" type="email" placeholder="Enter Your Email">
-					<input class="btn" type="submit" value="Submit">
-				</form>
-			</div>
+
+<footer>
+	<div class="footer-container">
+		<div class="left-col">
+			<div class="logo"></div>
+			<div class="social-media">
+				<a href="#"><img src="graphics\fb.png"></a>
+				<a href="#"><img src="graphics\insta.png"></a>
+				<a href="#"><img src="graphics\tt.png"></a>
+				<a href="#"><img src="graphics\ytube.png"></a>
+				<a href="#"><img src="graphics\linkedin.png"></a>
+			</div><br><br>
+			<p class="rights-text">Copyright © 2021 Created By Azlan Abas, All Rights Reserved.</p>
+			<br><p><img src="graphics/location.png"> Ubud, Bali, Indonesia<br><p>Come And Visit Me.</p><br>
+			<p><img src="graphics/phone.png"> +62 817 691 7122<br><img src="graphics/mail.png">&nbsp; azlan01100001@gmail.com</p>
 		</div>
-	</footer>
+		<div class="right-col">
+			<h1 style="color: #fff">Our Newsletter</h1>
+			<div class="border"></div><br>
+			<p>Enter Your Email to get our News and updates.</p>
+			<form class="newsletter-form">
+				<input class="txtb" type="email" placeholder="Enter Your Email">
+				<input class="btn" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</footer>

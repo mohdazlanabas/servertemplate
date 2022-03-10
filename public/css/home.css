@@ -1,7 +1,13 @@
+.wrapper{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 
 #button{  
     background-color: darkgray;  
     padding: 10px;  
     color: white;
-    margin-left: 40px;
+    margin-left: 20px;
 }  

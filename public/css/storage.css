@@ -3,7 +3,7 @@ body{
     flex-direction: column;
 }
 
-.mainwrapper{
+.wrappertop{
     display: flex;
     flex-direction: column;
     width: 95%;
