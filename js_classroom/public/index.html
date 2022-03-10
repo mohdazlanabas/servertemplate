@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASSROM</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+
+<h1>CLASS PAGE</h1>
+
+<div class="wrapper">
+
+        <div class="c1">
+                
+                <div class="r1a">            
+                        <div class="center">
+                                <form name="forms" class="for">
+                                    <input name="display" id="display" type="text">
+                                    <div class="buttons">
+                                        <input type="button" value="9" onclick="designate('9')">
+                                        <input type="button" value="8" onclick="designate('8')">
+                                        <input type="button" value="7" onclick="designate('7')">
+                                        <input type="button" value="C" onclick="del()">
+                                        <input type="button" value="AC" onclick="ac()"><br>
+                                        <input type="button" value="6"   onclick="designate('6')">
+                                        <input type="button" value="5"   onclick="designate('5')">
+                                        <input type="button" value="4"   onclick="designate('4')">
+                                        <input type="button" value="-"   onclick="designate('-')">
+                                        <input type="button" value="+"   onclick="designate('+')"><br>
+                                        <input type="button" value="3"   onclick="designate('3')">
+                                        <input type="button" value="2"   onclick="designate('2')">
+                                        <input type="button" value="1"   onclick="designate('1')">
+                                        <input type="button" value="*"   onclick="designate('*')">
+                                        <input type="button" value="/"   onclick="designate('/')"><br>
+                                        <input type="button" value="0"   onclick="designate('0')">
+                                        <input type="button" value="."   onclick="designate('.')">
+                                        <input type="button" value="("   onclick="designate('(')">
+                                        <input type="button" value=")"   onclick="designate(')')">
+                                        <input type="button" value="&#8730;"   onclick="sqrt()"><br>
+                                        <input type="button" value="%"   onclick="per()">
+                                        <input type="button" value="x!"   onclick="fact()">
+                                        <input type="button" value="rad"   onclick="rad()">
+                                        <input type="button" value="x&#178;"   onclick="square()">
+                                        <input type="button" value="log"   onclick="logarithm()"><br>
+                                        <input type="button" value="ln"   onclick="lan()">
+                                        <input type="button" value="pi"   onclick="pi()">
+                                        <input type="button" value="sin"   onclick="sine()">
+                                        <input type="button" value="cos"   onclick="cos()">
+                                        <input type="button" value="tan"   onclick="tan()"><br>
+                                        <input type="button" value="0"   onclick="designate('0')">
+                                        <input type="button" value="="   onclick="equal()">
+                                    </div>
+                                </form>
+                            </div>
+                            
+                </div>
+       
+
+                <div class="r1b">
+                        <h4>LOAD, EDIT, SAVE, DOWNLOAD TXT FILE</h4>
+                        <textarea placeholder="Loaded txt file will appear here or type new text ...." id="textbox"></textarea>
+                        <input class="filename" id="filename" placeholder="newfilename.txt" />
+                        <button class="download" id="download">Click To Download</button>
+                        <input class="txtupload" id="txtupload" type="file"/>
+                </div>
+
+                <div class="r1c">
+                        <embed src = 'data/data.pdf' type='application/pdf' width = '100%' height = '300px' />
+                </div>
+
+        </div>
+
+        <div class="c2">
+
+                <div class="r2a">
+                        <h4>Question 11.</h4>
+                        <p>What year did the Gettysburg Adrress occured ?</p>
+                        <input type="radio" value="answer1">
+                        <label for="answer1">1843</label><br>
+                        <input type="radio" value="answer2">
+                        <label for="answer2">1853</label><br>
+                        <input type="radio" value="answer3">
+                        <label for="answer3">1863</label><br>
+                        <h4>Question 12.</h4>
+                        <p>Which US President signed the Gettysburg Address?  ?</p>
+                        <input type="radio" value="answer1">
+                        <label for="answer1">Winston Churchill</label><br>
+                        <input type="radio" value="answer2">
+                        <label for="answer2">Abraham Lincoln</label><br>
+                        <input type="radio" value="answer3">
+                        <label for="answer3">Lindon B. Johnson</label><br>
+                </div>
+
+                <div class="r2b">
+                        <h4>PDF PARSER- Choose pdf only</h4>
+                        <textarea id="pdftext" placeholder="Your PDF text will appear here..."></textarea>
+                        <br>
+                        <input type="file" id="pdfinputfile">
+                        <button type="button" id="btnUpload">Upload</button> 
+                </div>
+
+                <div class="r2c">
+                        <video class="videoframe" controls>
+                        <source src="./data/fidanacci-mac.mp4" type="video/mp4">
+                        </video>
+                </div>
+        </div>
+
+</div>
+<script src="calc.js"></script>
+<script src="pdf.js"></script>
+<script src="txt.js"></script>
+</body>
+</html>
+
+
