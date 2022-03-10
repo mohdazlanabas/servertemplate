@@ -49,8 +49,8 @@ body {
 
 /* SIDEBAR */
 #sidebar {
-/*	position: fixed; */
-	top: 152px;
+position: fixed;
+	top: 170px;
 	left: 0;
 	width: 280px;
 	height: 100%;
