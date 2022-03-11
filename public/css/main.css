@@ -3,3 +3,7 @@ header, footer{
     background-color: ghostwhite;
     padding: 10px;
 }
+
+a{
+    float: left;
+}

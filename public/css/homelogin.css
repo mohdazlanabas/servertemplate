@@ -9,7 +9,7 @@ body
         padding: 80px;  
         background: lightgray;  
         border-radius: 15px;
-        margin-left: 50px;
+        margin-left: 10px;
         margin-bottom: 50px;
 }  
 
@@ -35,7 +35,7 @@ body
 }  
 
 #mainlogin{  
-    background-color: darkgray;  
+    background-color: red;  
     padding: 10px;  
     color: white;
     margin-left: 40px;
