@@ -62,6 +62,7 @@ app.get('/add', (req, res) => {
   res.render((path.join(__dirname, '/views/system','add.ejs')))
 })
 
+/*
 app.post('/add-to-data', (req, res) => {
 const Data = new Database({
   username: req.body.username,
@@ -78,7 +79,6 @@ const Data = new Database({
   marital: req.body.marital})
 })
 
-/*
 Data.save().then(()=> {
   res.redirect('/settings');
 }).catch(err => console.log(err))
