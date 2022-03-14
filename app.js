@@ -17,9 +17,10 @@ app.get("/", (req, res) => res.render('index'));
 app.get('/intro', (req, res) => {res.render('intro')});
 
 // BODY PARSER
-  app.use(bodyParser.urlencoded({extended: false}))
+  // app.use(bodyParser.urlencoded({extended: false}))
   // app.use(bodyParser.json)
 
+/*
 //MongoDb Database
 const url = 'mongodb+srv://coderazlan:Test01test@cluster0.tvvh4.mongodb.net/Teacher?retryWrites=true&w=majority';
 
@@ -29,6 +30,7 @@ mongoose.connect(url, {
   useUnifiedTopology: true
 }).then(console.log("MongoDB Connected"))
 .catch(err => console.log(err))
+*/
 
 // Import Database Model
 const Database = require('./models/Database')
@@ -56,13 +58,11 @@ app.get('/settings', (req, res) => {
 })
 
 
-
-
 app.get('/add', (req, res) => {
   res.render((path.join(__dirname, '/views/system','add.ejs')))
 })
 
-/*
+
 app.post('/add-to-data', (req, res) => {
 const Data = new Database({
   username: req.body.username,
@@ -79,6 +79,7 @@ const Data = new Database({
   marital: req.body.marital})
 })
 
+/*
 Data.save().then(()=> {
   res.redirect('/settings');
 }).catch(err => console.log(err))
