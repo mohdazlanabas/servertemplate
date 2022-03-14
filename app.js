@@ -23,13 +23,14 @@ app.get('/intro', (req, res) => {res.render('intro')});
 //MongoDb Database
 const url = 'mongodb+srv://coderazlan:Test01test@cluster0.tvvh4.mongodb.net/Teacher?retryWrites=true&w=majority';
 
+/*
 // Connect Application with Databse
 mongoose.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(console.log("MongoDB Connected"))
 .catch(err => console.log(err))
-
+*/
 
 // Import Database Model
 const Database = require('./models/Database')
