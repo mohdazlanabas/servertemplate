@@ -20,7 +20,6 @@ app.get('/intro', (req, res) => {res.render('intro')});
   // app.use(bodyParser.urlencoded({extended: false}))
   // app.use(bodyParser.json)
 
-/*
 //MongoDb Database
 const url = 'mongodb+srv://coderazlan:Test01test@cluster0.tvvh4.mongodb.net/Teacher?retryWrites=true&w=majority';
 
@@ -34,8 +33,6 @@ mongoose.connect(url, {
 
 // Import Database Model
 const Database = require('./models/Database')
-
-*/
 
 //SYSTEM
 
