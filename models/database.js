@@ -54,4 +54,4 @@ const schoolSchema = new mongoose.Schema({
     },
 })
 
-module.exports = mongoose.model('Teachers.usernames', schoolSchema)
+module.exports = mongoose.model('Database', schoolSchema)
