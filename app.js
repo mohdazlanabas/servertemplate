@@ -16,7 +16,7 @@ app.set('view engine', 'ejs')
 app.get("/", (req, res) => res.render('index'));
 app.get('/intro', (req, res) => {res.render('intro')});
 
-
+/*
 //MONGODB DATABASE
 const url = 'mongodb+srv://coderazlan:Test01test@cluster0.tvvh4.mongodb.net/Teachers?retryWrites=true&w=majority';
 mongoose.connect(url, {
@@ -25,6 +25,7 @@ mongoose.connect(url, {
 }).then(console.log("MongoDB Connected"))
 .catch(err => console.log(err))
 const database = require('./models/Database')
+*/
 
 
 //SYSTEM
