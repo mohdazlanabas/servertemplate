@@ -16,25 +16,16 @@ app.set('view engine', 'ejs')
 app.get("/", (req, res) => res.render('index'));
 app.get('/intro', (req, res) => {res.render('intro')});
 
-// BODY PARSER
-  // app.use(bodyParser.urlencoded({extended: false}))
-  // app.use(bodyParser.json)
 
-//MongoDb Database
-const url = 'mongodb+srv://coderazlan:Test01test@cluster0.tvvh4.mongodb.net/Teacher?retryWrites=true&w=majority';
-
-/*
-// Connect Application with Databse
+//MONGODB DATABASE
+const url = 'mongodb+srv://coderazlan:Test01test@cluster0.tvvh4.mongodb.net/Teachers?retryWrites=true&w=majority';
 mongoose.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(console.log("MongoDB Connected"))
 .catch(err => console.log(err))
+const database = require('./models/Database')
 
-// Import Database Model
-const Database = require('./models/Database')
-
-*/
 
 //SYSTEM
 
@@ -54,37 +45,16 @@ app.get('/home', (req, res) => {
   res.render((path.join(__dirname, '/views/system','home.ejs')))
 })
 
+
+
 app.get('/settings', (req, res) => {
-  res.render((path.join(__dirname, '/views/system','settings.ejs')))
+// res.send('Databse hidden in port 5000!')
+database.find({}, function(err, usernames) {
+  res.render((path.join(__dirname, '/views/system','settings.ejs')), {
+    userlist: usernames
+    })  
+  })
 })
-
-
-app.get('/add', (req, res) => {
-  res.render((path.join(__dirname, '/views/system','add.ejs')))
-})
-
-/*
-app.post('/add-to-data', (req, res) => {
-const Data = new Database({
-  username: req.body.username,
-  firstname: req.body.firstname,
-  lastname: req.body.lastname,
-  email: req.body.email,
-  altemail: req.body.altemail,
-  mobile: req.body.mobile,
-  gender: req.body.gender,
-  idcard: req.body.idcard,
-  dob: req.body.dob,
-  city: req.body.city,
-  country: req.body.country,
-  marital: req.body.marital})
-})
-
-
-Data.save().then(()=> {
-  res.redirect('/settings');
-}).catch(err => console.log(err))
-*/
 
 app.get('/test', (req, res) => {
   res.render((path.join(__dirname, '/views/system','test.ejs')))
